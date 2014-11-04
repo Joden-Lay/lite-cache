@@ -1,0 +1,41 @@
+{
+  "main": "./index.js",
+  "version": "0.1.0",
+  "name": "lite-cache",
+  "description": "A node.js simple memory caching lib written in ES6",
+  "author": "Joden Duong <eanglay@hotmail.com>",
+  "homepage": "https://github.com/Joden-Lay/lite-cache",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --harmony --check-leaks --reporter list"
+  },
+  "keywords": [
+    "cache",
+    "memory",
+    "storage",
+    "es6",
+    "lite",
+    "store"
+  ],
+  "author": {
+    "name": "Joden Lay",
+    "email": "eanglay@hotmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Joden Lay",
+      "email": "eanglay@hotmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Joden-Lay/lite-cache.git"
+  },
+  "bugs": {
+    "url": "http://github.com/Joden-Lay/lite-cache/issues"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
